@@ -1,0 +1,10 @@
+.more-suggestions {
+  border-top: var(--main-border);
+  font-size: 10px;
+}
+
+.more-suggestions__title {
+  display: block;
+  padding: 25px 0px;
+  font-weight: 700;
+}
