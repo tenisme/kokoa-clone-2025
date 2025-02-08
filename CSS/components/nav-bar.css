@@ -3,8 +3,8 @@
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 0px;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
+  border-top: var(--main-border);
 }
 
 .nav__list {
@@ -13,7 +13,7 @@
 }
 
 .nav__link {
-  color: #2e363e;
+  color: #2f363e;
 }
 
 .nav__notification {

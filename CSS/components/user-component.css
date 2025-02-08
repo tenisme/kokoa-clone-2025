@@ -11,7 +11,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
   font-size: 10pt;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@
 }
 
 .user-component__subtitle {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray);
   font-size: 10pt;
 }
 

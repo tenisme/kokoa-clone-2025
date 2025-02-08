@@ -12,8 +12,9 @@
 
 .screen-header__icons {
   display: flex;
+  font-size: 12pt;
 }
 
 .screen-header__icons span {
-  margin-left: 20px;
+  margin-left: 25px;
 }

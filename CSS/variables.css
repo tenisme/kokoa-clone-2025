@@ -1,5 +1,7 @@
 /* 변수(variables) 저장 공간 */
 :root {
   --yellow: #fae100;
+  --gray: rgba(0, 0, 0, 0.5);
   --horizontal-space: 17.5px;
+  --main-border: 2px solid rgba(0, 0, 0, 0.1);
 }
