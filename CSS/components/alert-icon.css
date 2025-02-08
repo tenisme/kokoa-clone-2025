@@ -1,0 +1,25 @@
+.relative-father {
+  position: relative;
+}
+
+span.relative-father {
+  display: block;
+}
+
+.alert-icon {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.alert-icon--nav {
+  bottom: 25px;
+  left: 25px;
+}
+
+.alert-icon--screen-header {
+  bottom: 15px;
+  left: 15px;
+}
