@@ -24,7 +24,7 @@
 }
 
 .open-post {
-  padding: 11px 0px;
+  padding: 13.5px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,12 @@
 
 .open-post__column {
   height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.open-post__column.open-post__text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -80,8 +86,8 @@
 }
 
 .open-post__photo img {
-  width: 80px;
-  height: 80px;
+  width: 88px;
+  height: 88px;
   border-radius: 5px;
 }
 
@@ -95,8 +101,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 5px;
-  left: 15px;
+  bottom: 6px;
+  left: 22px;
 }
 
 .open-post__heart-count span {
