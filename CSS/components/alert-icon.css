@@ -23,3 +23,8 @@ span.relative-father {
   bottom: 17px;
   left: 20px;
 }
+
+.alert-icon--icon-raw {
+  bottom: 85px;
+  right: 30px;
+}
