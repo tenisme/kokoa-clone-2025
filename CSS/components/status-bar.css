@@ -1,4 +1,5 @@
 .status-bar {
+  background-color: white;
   width: 465px;
   padding: 5px 3px;
   position: fixed;

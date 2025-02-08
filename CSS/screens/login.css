@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0px 60px;
+  margin: 67px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,8 +7,8 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 15pt;
+  margin-bottom: 25px;
+  font-size: 16pt;
   color: black;
 }
 
@@ -27,12 +27,12 @@
 
 #login-form input {
   border: none;
-  padding: 15px 0px;
+  padding: 18px 0px;
   font-size: 12pt;
 }
 
 #login-form input:nth-child(n + 2) {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 #login-form input:not([type="submit"]) {

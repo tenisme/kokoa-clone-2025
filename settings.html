@@ -8,6 +8,7 @@
   </head>
   <body>
     <div class="phone-screen">
+      <div class="fake-status-bar"></div>
       <div class="status-bar">
         <div class="status-bar__column">
           <span>No Service</span>
@@ -23,114 +24,42 @@
         </div>
       </div>
 
-      <header class="screen-header">
-        <h1 class="screen-header__title">More</h1>
-        <div class="screen-header__icons">
-          <span><i class="fas fa-search fa-lg"></i></span>
-          <span><i class="fas fa-music fa-lg"></i></span>
-          <span class="relative-father">
-            <div class="alert-icon alert-icon--screen-header"></div>
-            <i class="fas fa-cog fa-lg"></i>
-          </span>
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <i class="fa-solid fa-chevron-left fa-2x"></i>
+        </div>
+        <div class="alt-header__column">
+          <span class="alt-header__title">Settings</span>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-2x"></i>
         </div>
       </header>
 
-      <main class="main-screen more-screen">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/3612017"
-              class="user-component__avatar"
-            />
-            <div class="user-component__text">
-              <span class="user-component__title">Nicolas</span>
-              <span class="user-component__subtitle"
-                >+1 787-493-4219<i class="fa-solid fa-circle-exclamation"></i
-              ></span>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <i class="fa-regular fa-message fa-2x"></i>
-          </div>
-        </div>
-
-        <div class="icon-raw">
-          <div class="icon-raw__icon">
-            <i class="fa-regular fa-calendar-check fa-2x"></i>
-            <span>Calendar</span>
-          </div>
-
-          <div class="icon-raw__icon">
-            <i class="fa-solid fa-box-archive fa-2x"></i>
-            <span>Talk Drive</span>
-          </div>
-
-          <div class="icon-raw__icon">
-            <i class="fa-regular fa-face-smile-wink fa-2x"></i>
-            <span>Emotions</span>
-          </div>
-
-          <div class="icon-raw__icon">
-            <i class="fa-solid fa-brush fa-2x"></i>
-            <span>Themes</span>
-          </div>
-
-          <div class="icon-raw__icon">
-            <i class="fa-solid fa-file-invoice-dollar fa-2x"></i>
-            <span>Account</span>
-          </div>
-
-          <div class="icon-raw__icon">
-            <i class="fa-regular fa-comments fa-2x"></i>
-            <span>Openchat</span>
-          </div>
-        </div>
-
-        <div class="more-suggestions">
-          <span class="more-suggestions__title">Suggestions</span>
-
-          <div class="more-suggestions__icons">
-            <div class="more-suggestions__icon">
-              <div class="more-suggestions__icon-image">
-                <i class="fa-solid fa-quote-right fa-3x"></i>
-              </div>
-              <span class="more-suggestions__icon-text">Kokoa Story</span>
-            </div>
-          </div>
-
-          <div class="more-suggestions__icons">
-            <div class="more-suggestions__icon">
-              <div class="more-suggestions__icon-image">
-                <i class="fa-solid fa-quote-right fa-3x"></i>
-              </div>
-              <span class="more-suggestions__icon-text">Kokoa Story</span>
-            </div>
-          </div>
-        </div>
-      </main>
+      <main class="main-screen"></main>
 
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__btn">
             <a class="nav__link" href="friends.html"
-              ><i class="fa-regular fa-user fa-2x"></i
+              ><i class="fa-regular fa-user fa-lg"></i
             ></a>
           </li>
           <li class="nav__btn">
             <a class="nav__link relative-father" href="chats.html">
               <span class="nav__notification badge">1</span>
-              <i class="fa-regular fa-comment fa-2x"></i
+              <i class="fa-regular fa-comment fa-lg"></i
             ></a>
           </li>
           <li class="nav__btn">
             <a class="nav__link" href="find.html"
-              ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+              ><i class="fa-solid fa-magnifying-glass fa-lg"></i
             ></a>
           </li>
           <li class="nav__btn">
             <a class="nav__link relative-father" href="more.html">
               <div class="alert-icon alert-icon--nav"></div>
-              <i class="fa-solid fa-ellipsis fa-2x"></i
+              <i class="fa-solid fa-ellipsis fa-lg"></i
             ></a>
           </li>
         </ul>
