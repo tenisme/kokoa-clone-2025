@@ -13,6 +13,7 @@
 @import "components/icon-raw.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/split-line.css";
 
 /* Screens */
 @import "screens/login.css";

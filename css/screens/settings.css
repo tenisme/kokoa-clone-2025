@@ -1,18 +1,41 @@
 .settings__setting {
-  padding: 20px 0px;
+  padding: 23px 0px;
   border-bottom: var(--main-border);
-  font-size: 13pt;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.settings__setting span {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
 .settings__setting i {
   opacity: 0.6;
-  margin-right: 15px;
-  font-size: 14pt;
+  margin: 0 15px 0 10px;
+  font-size: 17pt;
+  width: 40px;
+  text-align: center;
+}
+
+.settings__setting-column {
+  display: flex;
 }
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+  font-size: 14pt;
+  font-weight: normal;
+}
+
+.settings__setting-column:first-child span + span {
+  font-size: 10pt;
+  width: 21px;
+  height: 21px;
+  margin-left: 10px;
+}
+
+.settings__setting:nth-child(3) {
+  border: none;
 }
