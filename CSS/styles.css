@@ -18,6 +18,8 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   background-color: #2e363e;
@@ -31,7 +33,7 @@ body {
 
 .phone-screen {
   background-color: white;
-  width: 465px;
+  width: var(--main-horizontal-length);
   height: 825px;
 }
 

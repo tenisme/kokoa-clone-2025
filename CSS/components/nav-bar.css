@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   bottom: 0;
-  width: 465px;
+  width: var(--main-horizontal-length);
   background-color: #f9f9fa;
   padding: 17.5px 0px;
   border-top: var(--main-border);
