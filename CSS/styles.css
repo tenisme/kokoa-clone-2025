@@ -35,6 +35,7 @@ body {
   background-color: white;
   width: var(--main-horizontal-length);
   height: 825px;
+  position: relative;
 }
 
 .fake-status-bar {
