@@ -21,6 +21,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/splash-screen.css";
 
 body {
   background-color: #2e363e;
@@ -35,8 +36,11 @@ body {
 .phone-screen {
   background-color: white;
   width: var(--main-horizontal-length);
-  height: 825px;
-  position: relative;
+  height: var(--main-vertical-length);
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
 }
 
 .fake-status-bar {

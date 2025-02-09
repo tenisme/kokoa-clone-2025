@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/tenn.jpg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone</title>
@@ -32,7 +33,7 @@
         </p>
       </header>
 
-      <form action="friends.html" method="get" id="login-form">
+      <form class="login-form" action="friends.html" method="get">
         <input
           name="user-name"
           type="text"
@@ -40,8 +41,15 @@
         />
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log In" />
+      </form>
+      <form class="login-form">
+        <input type="submit" value="Sign Up" />
         <a href="#">Find Kokoa Account or Password</a>
       </form>
+    </div>
+
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
     </div>
 
     <div id="no-mobile">

@@ -1,5 +1,5 @@
 .user-component {
-  margin-bottom: 15px;
+  margin: 15px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,32 +12,33 @@
 
 .user-component__column:last-child {
   color: var(--gray);
-  font-size: 10pt;
+  font-size: 11pt;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
 .user-component__column:last-child i {
-  margin-left: 5pt;
+  margin: 0 2px;
 }
 
 .user-component__avatar {
-  width: 53px;
-  height: 53px;
-  border-radius: 20px;
+  width: 63px;
+  height: 63px;
+  border-radius: 26px;
   margin-right: 15px;
 }
 
 .user-component__avatar--xl {
-  width: 62px;
-  height: 62px;
-  border-radius: 25px;
+  width: 71px;
+  height: 71px;
+  border-radius: 29px;
 }
 
 .user-component__avatar--sm {
-  width: 48px;
-  height: 48px;
+  width: 55px;
+  height: 55px;
+  border-radius: 23px;
 }
 
 .user-component__text {
@@ -48,21 +49,17 @@
 }
 
 .user-component__title {
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: bold;
 }
 
 .user-component__title--xl {
-  font-size: 14pt;
-}
-
-.user-component__title--sm {
-  font-weight: normal;
+  font-size: 16pt;
 }
 
 .user-component__subtitle {
   color: var(--gray);
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .user-component__subtitle i {

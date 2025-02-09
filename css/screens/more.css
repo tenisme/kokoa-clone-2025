@@ -5,6 +5,7 @@
 .more-suggestions__title {
   display: block;
   padding: 25px 0px;
+  font-size: 11pt;
   font-weight: 700;
 }
 
@@ -13,7 +14,7 @@
 }
 
 .more-suggestions__icon {
-  margin: 0px 15px;
+  margin: 0px 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,6 +37,8 @@
 }
 
 .more-suggestions__icon-text {
+  margin-top: 10px;
   font-size: 10px;
+  font-weight: bold;
   color: var(--gray);
 }
