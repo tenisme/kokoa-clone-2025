@@ -1,8 +1,13 @@
 .alt-header {
+  width: var(--main-horizontal-length);
   padding: 20px 25px 25px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 24px;
+
+  box-sizing: border-box;
 }
 
 .alt-header__column {
@@ -29,6 +34,6 @@
   justify-content: flex-end;
 }
 
-.alt-header__column span:last-child {
-  margin-left: 20px;
+.alt-header__column:last-child i {
+  margin-left: 25px;
 }

@@ -1,24 +1,11 @@
-.phone-screen .chat-screen,
-.chat-screen .alt-header,
-.chat-screen .status-bar {
+.phone-screen:has(.main-chat) .status-bar,
+.phone-screen:has(.main-chat) .alt-header,
+.phone-screen:has(.main-chat) .long-screen {
   background-color: #9fb9c6;
 }
 
-.phone-screen .chat-screen {
+.phone-screen .long-screen {
   height: 500vh;
-  overflow-y: scroll;
-}
-
-.chat-screen .alt-header {
-  width: var(--main-horizontal-length);
-  position: fixed;
-  top: 24px;
-  box-sizing: border-box;
-}
-
-.chat-screen .fake-status-bar {
-  width: 100%;
-  height: 89px;
 }
 
 .chat__timestamp {
@@ -44,13 +31,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.8s linear;
 }
 
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 20px;
+  animation: fadeIn 0.8s linear;
 }
 
 .message-row img {
@@ -103,7 +90,7 @@
 }
 
 .reply {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: var(--main-horizontal-length);
   background-color: white;

@@ -29,18 +29,13 @@ body {
   color: #2e363e;
   font-family: "open sans", sans-serif;
   font-size: 10pt;
-  -ms-overflow-style: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 .phone-screen {
   background-color: white;
   width: var(--main-horizontal-length);
   height: var(--main-vertical-length);
-  overflow: hidden;
+  overflow: scroll;
   position: absolute;
   top: 50vh;
   left: 50vw;
@@ -54,4 +49,8 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
