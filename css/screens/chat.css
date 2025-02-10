@@ -5,7 +5,7 @@
 }
 
 .phone-screen .long-screen {
-  height: 500vh;
+  height: fit-content;
 }
 
 .chat__timestamp {
@@ -14,17 +14,6 @@
   padding: 10px 15px;
   border-radius: 25px;
   margin: 20px 0px;
-}
-
-@keyframes fadeIn {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: none;
-    opacity: 1;
-  }
 }
 
 .main-chat {
@@ -37,7 +26,9 @@
   width: 100%;
   display: flex;
   margin-bottom: 20px;
-  animation: fadeIn 0.8s linear;
+  animation: fadeIn 0.8s linear forwards;
+  transform: translateY(30px);
+  opacity: 0;
 }
 
 .message-row img {
@@ -69,10 +60,18 @@
   line-height: 16px;
 }
 
-.message__time,
-.message__author {
+.message__author,
+.message__time {
   opacity: 0.8;
-  font-size: 13pt;
+}
+
+.message__author {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.message__time {
+  font-size: 10pt;
 }
 
 .message-row--own {
@@ -98,7 +97,7 @@
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 5px 15px;
+  padding: 5px 10px;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
 }
@@ -108,7 +107,7 @@
 }
 
 .reply .reply__column:last-child {
-  width: 60%;
+  width: 110%;
   position: relative;
 }
 
@@ -174,4 +173,97 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+/* 이하 메세지 애니메이션 파트*/
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.message-row:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.message-row:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.message-row:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.message-row:nth-child(6) {
+  animation-delay: 1.6s;
+}
+
+.message-row:nth-child(7) {
+  animation-delay: 2s;
+}
+
+.message-row:nth-child(8) {
+  animation-delay: 2.4s;
+}
+
+.message-row:nth-child(9) {
+  animation-delay: 2.8s;
+}
+
+.message-row:nth-child(10) {
+  animation-delay: 3.2s;
+}
+
+.message-row:nth-child(11) {
+  animation-delay: 3.6s;
+}
+
+.message-row:nth-child(12) {
+  animation-delay: 4s;
+}
+
+.message-row:nth-child(13) {
+  animation-delay: 4.4s;
+}
+
+.message-row:nth-child(14) {
+  animation-delay: 4.8s;
+}
+
+.message-row:nth-child(15) {
+  animation-delay: 5.2s;
+}
+
+.message-row:nth-child(16) {
+  animation-delay: 5.6s;
+}
+
+.message-row:nth-child(17) {
+  animation-delay: 6s;
+}
+
+.message-row:nth-child(18) {
+  animation-delay: 6.4s;
+}
+
+.message-row:nth-child(19) {
+  animation-delay: 6.8s;
+}
+
+.message-row:nth-child(20) {
+  animation-delay: 7.2s;
+}
+
+.message-row:nth-child(21) {
+  animation-delay: 7.6s;
+}
+
+.message-row:nth-child(22) {
+  animation-delay: 8s;
 }
