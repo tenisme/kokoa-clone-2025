@@ -29,9 +29,11 @@ body {
   color: #2e363e;
   font-family: "open sans", sans-serif;
   font-size: 10pt;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .phone-screen {

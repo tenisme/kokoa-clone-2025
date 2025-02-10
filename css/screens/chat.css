@@ -1,11 +1,12 @@
-.phone-screen.chat-screen,
+.phone-screen .chat-screen,
 .chat-screen .alt-header,
 .chat-screen .status-bar {
   background-color: #9fb9c6;
 }
 
-.phone-screen.chat-screen {
+.chat-screen {
   height: 500vh;
+  overflow-y: hidden;
 }
 
 .chat-screen .alt-header {
