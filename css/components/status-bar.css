@@ -2,9 +2,10 @@
   background-color: white;
   width: var(--main-horizontal-length);
   padding: 5px 3px;
+  box-sizing: border-box;
   position: sticky;
   top: 0px;
-  box-sizing: border-box;
+  z-index: 99;
   display: flex;
   justify-content: center;
 }
