@@ -90,40 +90,52 @@
   width: var(--main-horizontal-length);
   background-color: white;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 5px 10px;
+  padding: 5px 0px;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+.reply__column:first-child i {
+  font-size: 21pt;
 }
 
 .reply .reply__column:last-child {
-  width: 110%;
+  width: 85%;
   position: relative;
 }
 
 .reply input {
   padding: 10px 15px;
   width: 100%;
-  border: var(--main-border);
+  border: 1px solid rgb(202, 202, 202);
   border-radius: 20px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+  background-color: rgba(145, 145, 145, 0.1);
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -4px;
-  top: 2px;
+}
+
+.reply__column:last-child button {
+  top: 3px;
+  right: 4px;
+  font-size: 15pt;
 }
 
 .reply__column:last-child > i {
-  top: 15px;
-  right: 40px;
+  top: 19.5px;
+  right: 46px;
   font-size: 17pt;
 }
 
@@ -134,8 +146,8 @@
 .reply__column button {
   background-color: var(--yellow);
   border: none;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
 }
 
